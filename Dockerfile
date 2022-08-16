@@ -6,4 +6,4 @@ EXPOSE 3000 35729
 COPY . .
 RUN npm install && npm run build
 
-CMD ["npm", "start"]
+CMD ["npm", "run", "serve", "--", "--port", "$PORT", "--host", "0.0.0.0"]
