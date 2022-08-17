@@ -1,11 +1,13 @@
 {
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "serve -s build",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "examples": "docusaurus-examples",
+    "start": "docusaurus-start",
+    "build": "docusaurus-build",
+    "publish-gh-pages": "docusaurus-publish",
+    "write-translations": "docusaurus-write-translations",
+    "version": "docusaurus-version",
+    "rename-version": "docusaurus-rename-version",
+    "serve": "docusaurus-serve"
   },
   "devDependencies": {
     "docusaurus": "^1.14.7"
@@ -19,4 +21,5 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
+
 }
